@@ -1,0 +1,60 @@
+body{
+  /* background:
+  radial-gradient(27% 29% at right, #0000 83%,#47ff9a 85% 99%,#0000 101%) calc(59px/2) 59px,
+  radial-gradient(27% 29% at left, #0000 83%,#47ff9a 85% 99%,#0000 101%) calc(59px/-2) 59px,
+  radial-gradient(29% 27% at top, #0000 83%,#47ff9a 85% 99%,#0000 101%) 0 calc(59px/2),
+  radial-gradient(29% 27% at bottom, #0000 83%,#47ff9a 85% 99%,#0000 101%) 0 calc(59px/-2)
+  #000000;
+  background-size: 118px 118px; */
+  background-color: black;
+  filter:brightness(.9);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  width: 60%;
+}
+.list{
+  margin: 1rem auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4 , auto);
+}
+.list-item{
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f8fffbab;
+  padding: 10px 10px;
+  list-style: none;
+}
+.list-item:hover{
+  box-shadow: 5px 0px 50px rgba(235, 228, 228, 0.623);
+}
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
