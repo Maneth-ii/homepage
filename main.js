@@ -51,7 +51,7 @@ const links = [
 const linksList = links.map((aLink) =>{
   return(
     `<li class="list-item" style=background-color:${aLink.color};>
-      <a class="link" href=${aLink.href} target="_self">
+      <a class="link" href=${aLink.href} >
         <div style="">
           <h1>${aLink.name}</h1>
         </div>
